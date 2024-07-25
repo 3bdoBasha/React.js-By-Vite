@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Readex+Pro:wght@160..700&display=swap');
+
+
+* {
+  font-family: Cairo;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: 550;
+  color: white;
+  list-style: none;
+  text-decoration:  none;
+}
+
+header {
+  color: rgb(238, 222, 222);
+  display: flex;
+  justify-content: center;
+  background-color: rgb(31, 26, 32);
+  margin: -10px;
+  width: 100%;
+}
+
+a {
+  color: #240350;
+  font-family: 20px;
+  color: rgb(2, 0, 128);
+  padding: 6px;
+  border-radius: 10px;
+  width: 120px;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+a:hover{
+  color: rgb(10, 6, 235);
+}
+
+body {
+  background-image: url("./imgs/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#flower {
+  width: 200px;
+  height: 100px;
+}
+
+#flower2 {
+  width: 200px;
+  height: 100px;
+
+}
+
+
+.post {
+  background: #0e0b33;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid teal 5px;
+  width: 35%;
+  margin: 25px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: purple;
+}
+
+.post span {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#tag {
+  background-color: purple;
+  padding: 6px;
+  font-size: 18px;
+  border: none;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+}
+
+#tag:hover {
+  background-color: #d423bc;
+}
+
+.like-btn {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #1848cc;
+  border: none;
+  width: 100px;
+  border-radius: 8px;
+  color: rgb(211, 208, 208);
+  transition: 0.4s;
+}
+
+.like-btn:hover {
+  background-color: #134be7;
+  color: white;
+}
+
+.sidebar {
+  background-color: #0e0b33;
+  border-radius: 10px;
+}
+
+button .imgs {
+  transition: transform 0.5s;
+  width: 190px;
+  border-radius: 7px;
+  filter: blur(4px);
+  margin-top: 10px;
+}
+
+#tag .imgs {
+  width: 220px;
+}
+
+#founder {
+  background-color: black;
+}
+
+#tag .imgs:hover {
+  filter: blur(0);
+  transform: scale(1.2);
+  transform: rotate(360deg);
+  width: 250px;
+  font-size: 25px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.575);
+}
+
+/* #post-header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  align-tracks: center;
+  text-align: center;
+} */
