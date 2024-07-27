@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: "Readex Pro",sans-serif !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(../imgs/bg2.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    direction: ltr;
+    height: 100vh;
+}
+
+.my-container {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#login-form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 80px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 7px 4px rgba(0, 0, 0, 0.3);
+    background-color: #009dff;
+    background-image: linear-gradient(135deg, #1616aa 0%, #2c4799 100%);
+}
+
+form input {
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: rgb(0, 132, 255) solid 3px;
+    border-bottom: 7px solid rgb(17, 109, 230);
+    border-radius: 4px;
+    transition: 0.3s;
+    direction: rtl;
+    transform: skew(-10deg);
+}
+
+form input:focus {
+    border: rgb(0, 132, 255) solid 2px;
+    outline: none;
+    border-bottom: 9px solid rgb(17, 109, 230);
+    background-color: #052350;
+}
+
+label {
+    display: block;
+    text-align: right;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+#login {
+    border-bottom: #1f4ac2 solid 8px;
+    border-right: #2f5db3 solid 8px;
+    transform: skewX(-10deg);
+    border-radius: 9px;
+    transition: 0.4s;
+    padding: 5px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+#login:hover {
+    border-bottom: #1a3a92 solid 5px;
+    border-right: #2f5db3 solid 5px;
+}
+
+@media (max-width: 768px) {
+    #login-form {
+        width: 95%;
+        padding: 20px;
+    }
+
+    form input {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    #login-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    form input {
+        font-size: 14px;
+    }
+
+    #login {
+        width: 80px;
+        font-size: 14px;
+    }
+}
