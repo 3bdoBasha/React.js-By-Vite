@@ -5,6 +5,7 @@ export default {
     './index.html',
     './src/components/Header.jsx',
     './src/components/SideMenu.jsx',
+    './src/components/tailwind.jsx'
   ],
   theme: {
     extend: {
