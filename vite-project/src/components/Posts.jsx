@@ -9,7 +9,7 @@ const Posts = () => {
       id: 1,
       badge: <UserCheck className=" mr-2 ml-2 text-xl"/>,
       name: "Ahmed",
-      views: "30",
+      views: 30,
       content:
         "صنعتها بإستخدام لغة الـ الجافا وأخذ مني وقتاً طويلاً ولكني مستمتع بهذا الإنجاز الذي حققته بإستخدام خبرتي البرمجية",
       likes: 0,
@@ -18,7 +18,7 @@ const Posts = () => {
       id: 2,
       badge: <UserCheck  className=" mr-2 ml-2 text-xl"/>,
       name: "Abdulrahman",
-      views: "50",
+      views: 50,
       content:
         "أريد أن أتعلم البرمجة ولكن أنا لا أعرف من أين أبدأ وتائه تماماً ماذا أفعل",
       likes: 0,
@@ -27,7 +27,7 @@ const Posts = () => {
       id: 3,
       badge: <BadgeCheck className=" mr-2 ml-2 text-xl" />,
       name: "Web Creator",
-      views: "100",
+      views: 100,
       content: `المشاكل التي يمكن أن تواجه أي مبتديء بالبرمجة أنه تائه لا يعلم من حيث أين يبدأ فـ بكل بساطة تتعلم أساسيات البرمجة ثم تتوجه إلى الكورس الذي تريد التخصص به`,
       likes: 0,
     },
